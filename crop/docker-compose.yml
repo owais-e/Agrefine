@@ -1,0 +1,29 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/app
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_ENV=development
+
+  model:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Use the same Dockerfile for the model
+    volumes:
+      - ./model.pkl:/app/model.pkl
+    # Add other configurations for your model container
+
+  data:
+    build:
+      context: .
+      dockerfile: Dockerfile  # Use the same Dockerfile for the data
+    volumes:
+      - ./fertilizer_suggestion.csv:/app/fertilizer_suggestion.csv
+    # Add other configurations for your data container
