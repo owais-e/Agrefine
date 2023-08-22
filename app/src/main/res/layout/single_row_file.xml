@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    app:cardUseCompatPadding="true"
+    android:layout_margin="10dp"
+    android:elevation="15dp"
+    android:background="@color/finalGreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white"
+        android:elevation="15dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:src="@drawable/baseline_supervised_user_circle_24"
+            android:id="@+id/pimage"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/pname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@+id/pimage"
+            android:inputType="textMultiLine"
+            android:maxLines="2"
+            android:text="rice"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/pdiscription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pname"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/pimage"
+            android:inputType="textMultiLine"
+            android:maxLines="3"
+            android:text="Discription"
+            android:textColor="#000"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextViewEdits,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/pprice"
+            android:text="RS 20"
+            android:layout_toRightOf="@+id/pimage"
+            android:layout_below="@+id/pdiscription"
+            android:textSize="15sp"
+            android:gravity="bottom|end"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:textColor="#EE2E31"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

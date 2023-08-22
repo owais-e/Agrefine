@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/finalGreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userimage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/baseline_supervised_user_circle_24" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload profile picture"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/darkFont2"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:id="@+id/uploadimg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="username"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:id="@+id/dispusername"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="310dp"
+        android:layout_height="422dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@color/finalWhite"
+        android:layout_marginTop="15dp"
+        android:elevation="10dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Account"
+            android:textSize="20sp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/darkFont2"
+            android:id="@+id/editprofiledata"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Account"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/darkFont2"
+            android:id="@+id/deleteaccount"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go to Seller Account"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/darkFont2"
+            android:id="@+id/switchtoselleraccount"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/darkFont2"
+            android:id="@+id/logout"/>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

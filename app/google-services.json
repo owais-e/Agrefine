@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778347613343",
+    "project_id": "fyp121-9d872",
+    "storage_bucket": "fyp121-9d872.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778347613343:android:abcad301dd7d123c9a66aa",
+        "android_client_info": {
+          "package_name": "com.example.agrefine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778347613343-r2396gnbnmacjrufispst74ptpooie16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9C86X0zBcArPnuxS4a4Ym-SFMqj4wOGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778347613343-r2396gnbnmacjrufispst74ptpooie16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

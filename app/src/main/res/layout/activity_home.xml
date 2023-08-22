@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/bgblur"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/leaf"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+    </ImageView>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:text="Crop Recommender"
+        android:id="@+id/CropRecommender"
+        android:textColor="@color/finalWhite"
+        android:textSize="20sp"
+        android:backgroundTint="@color/finalGreen"
+        android:layout_gravity="center"
+        android:elevation="15dp"
+        android:layout_marginTop="130dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:text="Fertilizer Recommender"
+        android:id="@+id/FertilizerRecommender"
+        android:textColor="@color/finalWhite"
+        android:textSize="20sp"
+        android:backgroundTint="@color/finalGreen"
+        android:layout_gravity="center"
+        android:elevation="15dp"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="90dp"
+        android:text="E commerce"
+        android:textSize="20sp"
+        android:id="@+id/ecommercehome"
+        android:textColor="@color/finalWhite"
+        android:backgroundTint="@color/finalGreen"
+        android:layout_gravity="center"
+        android:elevation="15dp"
+        android:layout_marginTop="40dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

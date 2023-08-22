@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditUserProfileActivity"
+    android:orientation="vertical"
+    android:background="@color/finalWhite">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/darkFont2"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="30dp"/>
+
+    <EditText
+        android:id="@+id/new_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter new name"
+        android:autofillHints="name"
+        android:inputType="text"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/darkFont2"
+        android:textColorHint="@color/darkFont2"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/new_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter new gmail"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/darkFont2"
+        android:textColorHint="@color/darkFont2"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/newmobilenumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter new mobile number"
+        android:inputType="number"
+        android:autofillHints="phone"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/darkFont2"
+        android:textColorHint="@color/darkFont2"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" />
+    <EditText
+        android:id="@+id/alreadypassword"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:autofillHints="password"
+        android:background="@drawable/custom_edit_text"
+        android:textColor="@color/darkFont2"
+        android:textColorHint="@color/darkFont2"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/ProgressBar"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="Update"
+        android:backgroundTint="@color/finalGreen"
+        android:textColor="@color/finalWhite"
+        android:id="@+id/updatetodate"
+        android:layout_marginTop="70dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.agrefine">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Agrefine"
+        tools:targetApi="31">
+        <activity
+            android:name=".aboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".Fertilizer_recommender"
+            android:exported="false" />
+        <activity
+            android:name=".Crop_recommender"
+            android:exported="false" />
+        <activity
+            android:name=".FavrtProductsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductDeatailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewProductUploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SellerDashBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditUserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PasswordForgetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ECommerceHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".introductory"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
