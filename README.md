@@ -21,4 +21,30 @@ Join us in transforming agriculture with AI. Elevate your farming experience, bo
 
 Download Agrefine from(https://)
 
-Note: Agrefine is a project in development. Stay tuned for updates and enhancements as we continually strive to empower the agricultural community.
+**Usage**
+**Crop Recommendation and Fertilizer Suggestion**
+
+Launch the Agrefine application.
+
+Navigate to the "Crop Recommendation" section.
+
+Enter your soil specifications, such as pH level, nutrient content, etc.
+
+Press the "Suggest Crop" button to receive a recommendation for suitable crops.
+
+After receiving the crop prediction, you can access fertilizer suggestions tailored to the predicted crop in the "Fertilizer Suggestion" section.
+
+**Agricultural Product Marketplace**
+Explore the "Marketplace" section in the Agrefine application.
+
+Browse listings for agricultural products, including crops, seeds, equipment, and more.
+
+Create your own product listings if you have items to sell. Include details like product name, description, price, and location.
+
+Contact sellers and buyers via the in-app messaging feature to negotiate and finalize transactions.
+
+**Acknowledgments**
+Thanks to the open-source community for providing invaluable libraries and tools used in this project.
+Special thanks to Back4App and Firebase for their services that power the Agrefine application.
+
+**Note**: Agrefine is a project in development. Stay tuned for updates and enhancements as we continually strive to empower the agricultural community.
