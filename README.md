@@ -17,6 +17,16 @@ Streamlined Product Procurement: Simplify your product procurement process. Acqu
 Data-Driven Success: Utilize data-backed insights to make the right choices for your land. Maximize yield potential and unlock your land's true capabilities.
 
 **Get Started**
+
+Open the project in Android Studio.
+
+Set up the necessary API keys and credentials:
+
+**Back4App**: Configure your Back4App API key for the crop prediction and fertilizer suggestion functionality. Add it to the respective configuration files.
+**Firebase**: Configure your Firebase credentials for the marketplace functionality, including Firebase Realtime Database setup.
+
+Build and run the application on your Android device or emulator.
+
 Join us in transforming agriculture with AI. Elevate your farming experience, boost productivity, and make data-driven decisions with Agrefine.
 
 Download Agrefine from(https://)
